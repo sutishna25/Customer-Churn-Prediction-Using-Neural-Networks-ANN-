@@ -4,29 +4,43 @@
 
 This project focuses on predicting customer churn using a Deep Learning model (Artificial Neural Network) built with TensorFlow/Keras. The goal is to identify customers likely to leave a telecom service based on their usage patterns, account details, and billing information.
 
+
 🎯 Objectives
 
-Predict whether a customer will churn
+
+Predict whether a customer will churn.
+
 Perform data preprocessing and feature engineering
+
 Build and train a neural network model
+
 Evaluate model performance for business insights
 
+
 📂 Dataset
+
 
 The dataset includes:
 
 Customer demographics (gender, partner, dependents)
+
 Account details (tenure, contract type)
+
 Services subscribed (internet, phone, streaming, etc.)
+
 Billing information (monthly & total charges)
+
 
 🔍 Exploratory Data Analysis (EDA)
 
-Removed invalid entries in TotalCharges
-Converted TotalCharges to numeric format
-Visualized churn distribution using histograms
-Compared Monthly Charges vs Churn
-Analyzed feature patterns affecting churn
+
+Removed invalid entries in TotalCharges.
+
+Converted TotalCharges to numeric format.
+
+Visualized churn distribution using histograms.
+Compared Monthly Charges vs Churn.
+Analyzed feature patterns affecting churn.
 
 ⚙️ Data Preprocessing
 
